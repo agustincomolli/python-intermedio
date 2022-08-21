@@ -1,4 +1,4 @@
-def main():
+def run():
     my_list = [1, "Hola", True, 3.2]
     my_dict = {"nombre": "Agustín", "apellido": "Comolli"}
     super_list = [
@@ -18,4 +18,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run()

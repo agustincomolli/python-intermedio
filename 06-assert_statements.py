@@ -4,7 +4,7 @@ def divisors(num):
     return [i for i in range(1, num + 1) if num % i == 0]
 
 
-def main():
+def run():
     num = input("Escribe un número: ")
     assert num.isnumeric(), "Debe ingresar un número."
     print(divisors(int(num)))
@@ -12,4 +12,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run()

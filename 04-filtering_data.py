@@ -1,4 +1,4 @@
-def main():
+def run():
     all_python_devs= [worker["name"] for worker in DATA if worker["language"] == "python"]
     print(all_python_devs)
 
@@ -102,5 +102,5 @@ DATA = [
 ]
 
 if __name__ == "__main__":
-    main()
+    run()
 

@@ -6,7 +6,7 @@ def challenge():
     print(challenge_list)
 
 
-def main():
+def run():
     squares = []
 
     # Crear una lista de 100 números enteros elevados al cuadrado y que no
@@ -22,4 +22,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run()

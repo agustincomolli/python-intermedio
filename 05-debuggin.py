@@ -7,7 +7,7 @@ def divisors(num):
             print("Debe ingresar un número mayor a 0.")
 
 
-def main():
+def run():
     try:
         num = int(input("Escribe un número: "))
         print(divisors(num))
@@ -17,4 +17,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run()

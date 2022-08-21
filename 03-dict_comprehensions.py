@@ -5,7 +5,7 @@ def challenge():
     print(my_dict)
 
 
-def main():
+def run():
     challenge_dict = {}
 
     for i in range(1, 101):
@@ -22,4 +22,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    run()
