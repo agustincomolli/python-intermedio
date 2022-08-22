@@ -89,7 +89,7 @@ def get_random_word():
     """
     word_list = read_file()
 
-    return random.choice(word_list)
+    return str(random.choice(word_list)).upper()
 
 
 def clear_screen():
@@ -115,13 +115,13 @@ def show_interface(hidden_word:str, tries:int):
 
 
 def run():
-    word = "pelo" #get_random_word() 
+    word = get_random_word() 
     hidden_word = ["_"] * len(word)
     tries = 0
 
     while True:
         show_interface(hidden_word, tries)
-        current_letter = input("\nElige una letra: ")
+        current_letter = input("\nElige una letra: ").upper()
         is_found = False
 
         # Buscar la letra en toda la palabra.
